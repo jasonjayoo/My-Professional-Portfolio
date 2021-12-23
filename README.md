@@ -24,6 +24,7 @@ Even numbered week homework assignment. Created html and css from scratch.
 
 <br>
 <br>
+
 ### HTML - Details of work completed in order:
 
 <br>
@@ -39,6 +40,7 @@ Even numbered week homework assignment. Created html and css from scratch.
 
 <br>
 <br>
+
 ### CSS - Details of work completed not in order:
 
 <br>
@@ -86,11 +88,11 @@ Even numbered week homework assignment. Created html and css from scratch.
 
 #### URL (Github Repository):
 
-Click [here](https://github.com/jasonjayoo/Homework-2) to go to Homework-1 Github Repository
+Click [here](https://github.com/jasonjayoo/My-Professional-Portfolio) to go to My-Professional-Portfolio Github Repository
 
 <br>
 
 #### URL (Published Webpage):
 
-<a href="https://jasonjayoo.github.io/Homework-2/" target="_blank">Homework-2</a>
+<a href="https://jasonjayoo.github.io/My-Professional-Portfolio/" target="_blank">My-Professional-Portfolio</a>
 
