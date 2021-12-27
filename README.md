@@ -36,7 +36,7 @@ Even numbered week homework assignment. Created html and css of my professional 
 <br>
 <br>
 
-## Usage: screenshots + Mockup - (Highlighted Title(s) = a hyperlink to the direct image)
+## Usage: screenshots + mockup - (Highlighted Title(s) = a hyperlink to the direct image)
 
 <br>
 
