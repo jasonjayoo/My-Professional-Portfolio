@@ -13,14 +13,12 @@
 }
 
 /* body */
-
 body {
     background-image: linear-gradient(to top right, #007adf 10%, #22d4b1 100%);
     font-family: Georgia, Helvetica, Tahoma, sans-serif;
 }
 
 /* header flexbox specs */
-
 header {
     display: flex;
     flex-flow: column wrap;
@@ -33,12 +31,14 @@ header {
     padding-bottom: 1rem;
 }
 
+/* Introduction title */
 header h1 {
     font-weight: 300; 
     padding-top: 1.5rem;
     padding-bottom: 1rem;
 }
 
+/* Personalize quote and pitch */
 header h2 {
     font-weight: 200;
     padding-top: .5rem;
@@ -46,7 +46,6 @@ header h2 {
 }
 
 /* nav bar specs */
-
 nav {
     display: flex;
     flex-flow: row wrap;
@@ -60,13 +59,13 @@ nav {
 
 nav ul {
     list-style-type: none;
-
 }
 
 nav li {
     display: inline-block;
 }
 
+/* nav bar decoration specs*/
 nav a {
     text-decoration: none;
     padding: 20px;
@@ -79,11 +78,12 @@ nav a {
 /* all images set to 50 viewport height */
 img {
     width: 50vh;
-    /* viewport (width & height) vw [landscape] vh [portrait] */
-  }
+}
+
+/* (personal notes): Viewport (width & height): vw [landscape], vh [portrait] */
+
 
 /* main flexbox specs */
-
 main {
     display: flex;
     flex-flow: column wrap;
@@ -97,11 +97,13 @@ main h2 {
     margin-bottom: 1.5rem;
 }
 
+/* rounded profile picture's edge*/
 main #profile-image {
     border-radius: 25px;
     margin-bottom: 1.5rem;
 }
 
+/* text decoration for about me paragraph*/
 main p {
     width: 50%;
     text-align: center;
@@ -112,18 +114,16 @@ main p {
 
 }
 
-/* works section with three projects / links */
+/* My Portfolio title specs */
 section h2 {    
     display: flex;
-    /* flex-flow: column wrap;
-    align-items: center; */
     justify-content: center;
-    /* align-content: center; */
     font-family: Garamond, Tahoma, sans-serif;
     padding-bottom: 30px;
     text-decoration: underline black;
 }
 
+/* Primary Project specs */
 .firstproject {
     display: flex;
     width: 60vh;
@@ -134,14 +134,15 @@ section h2 {
     border-radius: 20px;
     font-family: Garamond, Tahoma, sans-serif;
     padding: 20px;
-    /* flex: 0 0 200px;  */
     margin: 0 auto;
 }
 
+/* rounded corners of primary project image */
 .firstproject img {
     border-radius: 10px;
 }
 
+/* second and third project specs */
 .card {
     display:flex;
     flex-direction:column;
@@ -153,22 +154,16 @@ section h2 {
     padding:20px;
 }
 
+/* rounded corners of 2nd and 3rd projects */
 .card img {
     border-radius: 10px;
 }
-
-/* .firstproject {
-    display: flex;
-    max-height: 475px;
-    /* max-width: 30%; */
-    /* flex: 0 0 200px; 
-    margin: 0 auto;
-} */ */
 
 .firstproject h3 {
     padding-bottom: 0;
 }
 
+/* small projects class added to place 2nd & 3rd below primary */
 .small-projects {
     display: flex;
     justify-content: center;
@@ -185,7 +180,6 @@ section h2 {
 }
 
 /* custom colors for first project title - span for yellow font*/
-
 .firstproject h3 {
     color: green;
 }
@@ -233,6 +227,7 @@ footer #green {
     color: #2eff05;
 }
 
+/* media query section - 800px */
 @media screen and (max-width: 800px){
     header {
         font-size: 80%;
@@ -269,6 +264,7 @@ footer #green {
     }
 }
 
+/* media query section - 630px */
 @media screen and (max-width: 630px){
     header {
         font-size: 70%;
@@ -306,6 +302,7 @@ footer #green {
 
 }
 
+/* media query section - 400px */
 @media screen and (max-width: 400px){
     header {
         font-size: 50%;
@@ -343,6 +340,7 @@ footer #green {
 
 }
 
+/* media query section - 325px */
 @media screen and (max-width: 325px){
 
     header {
