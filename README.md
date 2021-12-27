@@ -10,6 +10,12 @@ Even numbered week homework assignment. Created html and css from scratch.
 
 <br> 
 
+### Credit:
+
+- I would like to thank Mr. <strong>Jeoffrey Batangan</strong> for his stellar contribution to the development of the CSS on my portfolio. Thank you for taking me from "hacking" my page to implementing flexbox in order to modernize and streamline the website. I have learned much!
+
+<br>
+
 ### Criteria's that were met included: 
 
 <br>

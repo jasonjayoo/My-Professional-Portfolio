@@ -98,58 +98,88 @@ main h2 {
 }
 
 main #profile-image {
-
     border-radius: 25px;
     margin-bottom: 1.5rem;
 }
 
 main p {
-
+    width: 50%;
     text-align: center;
     font-size: 20px;
     margin-bottom: 2rem;
-    padding-bottom: 10rem;
+    padding-bottom: 8rem;
+    padding-top: 2rem;
 
 }
 
 /* works section with three projects / links */
-section {
+section h2 {    
     display: flex;
-    flex-flow: row wrap;
-    align-items: center;
+    /* flex-flow: column wrap;
+    align-items: center; */
     justify-content: center;
-    align-content: center;
-    font-family: Georgia, Helvetica, Tahoma, sans-serif;
+    /* align-content: center; */
+    font-family: Garamond, Tahoma, sans-serif;
+    padding-bottom: 30px;
+    text-decoration: underline black;
 }
 
-#works {
+.firstproject {
     display: flex;
-    column-gap: 20px;
-    row-gap: 20px;
-    flex: 0 0 250px;
+    width: 60vh;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-family: Garamond, Tahoma, sans-serif;
+    padding: 20px;
+    /* flex: 0 0 200px;  */
+    margin: 0 auto;
+}
+
+.firstproject img {
+    border-radius: 10px;
 }
 
 .card {
     display:flex;
     flex-direction:column;
-    justify-content: baseline;
+    justify-content: center;
     align-items: center;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 20px;
     font-family: Garamond, Tahoma, sans-serif;
     padding:20px;
-
-}
-
-.firstproject {
-    flex: 0 0 300px;
 }
 
 .card img {
     border-radius: 10px;
 }
 
-.card h3 {
+/* .firstproject {
+    display: flex;
+    max-height: 475px;
+    /* max-width: 30%; */
+    /* flex: 0 0 200px; 
+    margin: 0 auto;
+} */ */
+
+.firstproject h3 {
+    padding-bottom: 0;
+}
+
+.small-projects {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+    flex: 0 0 250px;
+    padding-top: 40px;
+}
+
+
+.small-projects h3 {
     padding-bottom: 1rem;
     text-align: center;
 }
@@ -203,7 +233,7 @@ footer #green {
     color: #2eff05;
 }
 
-@media screen and (max-width: 825px){
+@media screen and (max-width: 800px){
     header {
         font-size: 80%;
     }
@@ -213,24 +243,35 @@ footer #green {
         justify-content: center;
     }
 
-    img {
-        width: 45vh;
+    main img{
+        width: 50vh;
+    }
+
+    .card img {
+        width: 40vh;
       }
-    
+
+    .firstproject img{
+        width: 50vh
+    }
+
+    .firstproject {
+        padding: 18px;
+        font-size: 80%;
+        width: 55vh;
+        flex: 0 1 200px;
+    }
+
     .card {
         padding: 18px;
         font-size: 80%;
         flex: 0 1 200px
     }
-
-      .project1 {
-        flex: 0 1 275px;
-    }
 }
 
-@media screen and (max-width: 565px){
+@media screen and (max-width: 630px){
     header {
-        font-size: 60%;
+        font-size: 70%;
     }
 
     nav {
@@ -238,42 +279,104 @@ footer #green {
         justify-content: center;
     }
 
-    img {
-        width: 35vh;
+    main img{
+        width: 50vh;
+    }
+
+    .card img {
+        width: 25vh;
       }
-    
+
+    .firstproject img{
+        width: 30vh
+    }
+
+    .firstproject {
+        padding: 12px;
+        font-size: 70%;
+        width: 45vh;
+        flex: 0 1 200px;
+    }
+
     .card {
-        padding: 10px;
+        padding: 12px;
         font-size: 60%;
         flex: 0 1 150px
     }
 
-      .project1 {
-        flex: 0 1 250px;
-    }
 }
 
-@media screen and (max-width: 300px){
+@media screen and (max-width: 400px){
     header {
         font-size: 50%;
     }
 
     nav {
-        font-size: 15%;
+        font-size: 50%;
         justify-content: center;
     }
 
-    img {
+    main img{
+        width: 35vh;
+    }
+
+    .card img {
         width: 20vh;
       }
-    
+
+    .firstproject img{
+        width: 25vh
+    }
+
+    .firstproject {
+        padding: 8px;
+        font-size: 60%;
+        width: 30vh;
+        flex: 0 2 100px;
+    }
+
       .card {
-        padding: 1px;
-        font-size: 35%;
+        padding: 7px;
+        font-size: 50%;
         flex: 0 2 100px
     }
 
-      .project1 {
-        flex: 0 2 200px;
+}
+
+@media screen and (max-width: 325px){
+
+    header {
+        font-size: 45%;
     }
+
+    nav {
+        font-size: 45%;
+        justify-content: center;
+    }
+
+    main img{
+        width: 30vh;
+    }
+
+    .card img {
+        width: 15vh;
+      }
+
+    .firstproject img{
+        width: 20vh
+    }
+
+    .firstproject {
+        padding: 6px;
+        font-size: 50%;
+        width: 25vh;
+        flex: 0 3 100px;
+    }
+
+      .card {
+        padding: 5px;
+        font-size: 40%;
+        flex: 0 3 100px
+    }
+
 }
