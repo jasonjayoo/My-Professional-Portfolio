@@ -4,19 +4,102 @@
 
 <br>
 
-## Project Details: 
+## Project Description: 
 
-Even numbered week homework assignment. Created html and css from scratch.
+Even numbered week homework assignment. Created html and css of my professional portfolio from scratch.
 
 <br> 
 
-### Credit:
+## Table of Contents:
+
+<br>
+
+- [Installation] (#installation)
+- [Usage] (#usage)
+- [Credits] (#credits)
+- [License] (#license)
+- [Badges] (#badges)
+- [Features] (#features)
+- [How] (#how to contribute)
+- [Criteria] (#criteria's met)
+- [HTML] (#html - details)
+- [CSS] (#css - details)
+- [URL] (#url (github repository))
+- [URL] (#url (published webpage))
+
+<br>
+
+## Installation
+<br>
+** Go to <a href="https://jasonjayoo.github.io/My-Professional-Portfolio/" target="_blank">My-Professional-Portfolio</a> In order to view My Professional Portfolio Webpage.
+
+<br>
+<br>
+
+## Usage: screenshots + Mockup - (Highlighted Title(s) = a hyperlink to the direct image)
+
+<br>
+
+[Mockup](images/Mockup.png)
+<img src="images/Mockup.png">
+
+<br>
+<br>
+
+[Screenshot1](images/Screenshot1.png)
+<img src="images/Screenshot1.png">
+
+[Screenshot2](images/Screenshot2.png)
+<img src="images/Screenshot2.png">
+
+[Screenshot3](images/Screenshot3.png)
+<img src="images/Screenshot3.png">
+
+<br>
+<br>
+
+
+## Credits:
 
 - I would like to thank Mr. <strong>Jeoffrey Batangan</strong> for his stellar contribution to the development of the CSS on my portfolio. Thank you for taking me from "hacking" my page to implementing flexbox in order to modernize and streamline the website. I have learned much!
 
 <br>
+<br>
 
-### Criteria's that were met included: 
+## License:
+<br>
+    -  Non applicable as of this time
+<br>
+<br>
+
+## Badges:
+<br>
+    - UCI Full Stack Bootcamp
+<br>
+<br>
+
+## Features:
+<br>
+    - Nav bar titles links to the local sections of the webpage.
+    - Image of the three projects opens new tab to the websites.
+    - Contact email will open up email browser for users.
+    - Linkedin link will open to my linkedin profile on a new tab.
+<br>
+<br>
+
+## How to Contribute:
+<br>
+    - My github repository is publically viewable. If you would to contribute to the webpage please email me at my link on the webpage with you github username and I will add you as a contributor on the repo. 
+<br>
+<br>
+
+## Tests:
+<br>
+    - You can test out the webpage on vsc or directly in the inspect window of your browser. 
+<br>
+<br>
+
+## Criteria's met: 
 
 <br>
 
@@ -31,7 +114,7 @@ Even numbered week homework assignment. Created html and css from scratch.
 <br>
 <br>
 
-### HTML - Details of work completed in order:
+## HTML - Details:
 
 <br>
 
@@ -47,7 +130,7 @@ Even numbered week homework assignment. Created html and css from scratch.
 <br>
 <br>
 
-### CSS - Details of work completed not in order:
+## CSS - Details:
 
 <br>
 
@@ -76,29 +159,14 @@ Even numbered week homework assignment. Created html and css from scratch.
 <br>
 <br>
 
-### Screenshots: (Highlighted Title(s) = a hyperlink to the direct image)
 
-<br>
-
-[Screenshot1](images/Screenshot1.png)
-<img src="images/Screenshot1.png">
-
-[Screenshot2](images/Screenshot2.png)
-<img src="images/Screenshot2.png">
-
-[Screenshot3](images/Screenshot3.png)
-<img src="images/Screenshot3.png">
-
-<br>
-<br>
-
-#### URL (Github Repository):
+## URL (Github Repository):
 
 Click [here](https://github.com/jasonjayoo/My-Professional-Portfolio) to go to My-Professional-Portfolio Github Repository
 
 <br>
 
-#### URL (Published Webpage):
+## URL (Published Webpage):
 
 <a href="https://jasonjayoo.github.io/My-Professional-Portfolio/" target="_blank">My-Professional-Portfolio</a>
 
